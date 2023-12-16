@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Final Portfolio</title>
+
+    <style>
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: rgb(4, 4, 4);
+        color: white    ;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .AboutMe {
+        text-align: justify;
+        margin-right: 45%;
+        letter-spacing: 2px;
+        font-size: 29px;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    header {
+        background-color: #242424;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    nav {
+        background-color: #464646;
+        padding: 10px 0;
+        text-align: right;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 5px;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 60px;
+        transition: .5s;
+    }
+
+    nav ul li a:hover {
+        color: yellow;
+        cursor: pointer;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+
+    h2 {
+        color: #ffffff;
+    }
+
+    .experience {
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    .experience p {
+        font-size: 15px;
+        color: #464646;
+    }
+
+    .img {
+        height: 550px;
+        width: auto;
+        position: absolute;
+        top: 0%;
+        left: 125%;
+    }
+
+    .box {
+        position: relative;
+        top: 50%;
+        left: 5%;
+        height: 150%;
+        width: 80%;
+        background: rgba(67, 67, 67, 0.4);
+        padding: 20px;
+    }
+
+    .box h2 {
+        text-align: center;
+        padding: 0 0 20px;
+        font-size: 30px;
+    }
+
+    .box p {
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .box input {
+        width: 100%;
+        margin-bottom: 20px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 48px;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .box textarea {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        background: #464646;
+        border: none;
+        outline: none;
+        color: #fff;
+        resize: none;
+    }
+
+    .box input[type="submit"]
+    {
+        border: none;
+        outline: none;
+        height: 28px;
+        font-size: 15px;
+        border: 20px;
+        width: 30%;
+        display: block;
+        margin: 0 auto;
+        color: #fff;
+        font-weight: bold;
+        background:#464646;
+    }
+
+    .box input[type="submit"]:hover
+    {
+        color: yellow;
+        cursor: pointer;
+    }
+
+    .imgs {
+    text-align: center;
+    }
+
+    .imgs a {
+        display: inline-block;
+        margin: 15px;
+        margin-top: 30px;
+    }
+
+    .imgs img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        header {
+            padding: 15px 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 50px;
+        }
+
+        section {
+            padding: 20px 0;
+        }
+
+        .AboutMe {
+            margin-right: 0;
+            margin-bottom: 0%;
+            font-size: 20px;
+        }
+
+        .img {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .imgs img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        nav {
+            text-align: left;
+        }
+
+        nav ul {
+            padding: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        .AboutMe {
+            margin-right: 0;
+            margin-bottom: 0%;
+            font-size: 17px;
+        }
+        
+        .img {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .imgs a {
+            display: inline-block;
+            margin: 10px;
+            margin-top: 25px;
+        }
+
+        .imgs img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    }
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Sandrei Aliah Marie G. Sanoy</h1>
+            <p>Web Developer &amp; Designer</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <div class="AboutMe">
+            <h2>About Me</h2>
+                <p>Hello! I'm Sandrei Aliah Marie G. Sanoy,</p>
+                <p>I am a highly skilled individual with a strong proficiency in a diverse range of computer science 
+                    and programming disciplines. My expertise spans across multiple domains, making me a versatile and 
+                    dedicated student in the field of computer science. I am currently pursuing my education at Ateneo de 
+                    Naga University, where I am continually honing my knowledge and skills to stay at the forefront of 
+                    technological advancements.</p>
+                    
+                    <div class="img">
+                        <img src="https://cdn.pixabay.com/photo/2015/03/03/08/55/portrait-657116_640.jpg" alt="pfp" class="img"></image>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <div class="exp">
+                <h2>Experience</h2>
+            </div>
+
+            <div class="experience">
+                <h3>Web Developer at <span style="color: green;">XYZ Company</h3>
+                <p>Worked on developing and maintaining web applications. Collaborated with cross-functional teams to achieve project goals.</p>
+            </div>
+          
+            <div class="experience">
+                <h3>UI/UX Designer at <span style="color: green;">ABC Agency</h3>
+                <p>Designed user interfaces and experiences for various clients. Conducted user research and implemented design best practices.</p>
+            </div>
+
+            <div class="experience">
+                <h3>Front-end Developer at <span style="color: green;">DEF Tech</h3>
+                <p>Focused on building responsive and interactive user interfaces. Implemented modern web technologies to enhance user experience.</p>
+            </div>
+
+            <div class="experience">
+                <h3>Software Engineer at <span style="color: green;">GHI Corporation</h3>
+                <p>Contributed to the development and maintenance of software solutions. Collaborated with the software engineering team to deliver high-quality products.</p>
+            </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="box">
+                <h2>Contact Me</h2>
+                <p>Name</p>
+                <input type="text" id="name" name="name" required>
+
+                <p>Email</p>
+                <input type="email" id="email" name="email" required>
+
+                <p>Subject</p>
+                <input type="text" id="subject" name="subject" required>
+
+                <p>Message</p>
+                <textarea id="message" name="message" rows="7" required></textarea>
+
+                <input type="submit" name="" value="Submit">
+
+                <div class="imgs">
+                    <a href="https://www.facebook.com/samsanoy8" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png" alt="Fb"></a>
+                    <a href="https://www.instagram.com/sammarie_17/#" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="Instagram"></a>
+                    <a href="https://www.tiktok.com/@weird_idiot_?is_from_webapp=1&sender_device=pc" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/2504/2504942.png" alt="TikTok"></a>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
